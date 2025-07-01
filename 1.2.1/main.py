@@ -216,3 +216,5 @@ if __name__ == "__main__":
     else:
         print("            Cannot run in NT.")
         os.system("pause")
+else:
+    raise ImportError("NText cannot be imported as a module")
